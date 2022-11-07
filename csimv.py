@@ -80,7 +80,8 @@ def maturity_value(p, i):
     for p, i in zip(p, i):
         n = round(p + i, 2)
         newlist.append(int(n))
-    return newlist
+    return newlist 
+    
 
-
-main()
+if __name__=="__main__":
+    main()
